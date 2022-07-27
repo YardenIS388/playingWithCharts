@@ -1,0 +1,41 @@
+*{
+    margin: 0 auto;
+    text-decoration: none;
+    font-family:"helvetica";
+}
+body{
+height: 100%;
+width: 100%;
+}
+#chart-container{
+    width: 90%;
+}
+
+.day{
+    width: 90%;
+    height: 5rem;
+    display: flex;
+    background-color: rgba(238, 237, 237, 0.952);
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 0.5rem;
+    border-top: 1px solid rgb(193, 193, 193);
+    padding: 0.5rem 0 0 0;
+    
+}
+
+.minute{
+    height:4rem;
+    background-color:rgb(84, 63, 214);
+    width: 3%;
+    margin-right:1px;
+    border-radius: 2px 2
+    px 0 0  ;
+}
+
+.date{
+    align-self: center;
+    width: 10%;
+    padding: 1%;
+
+}
